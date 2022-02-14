@@ -1,2 +1,0 @@
-# Tanmay Chhatbar
-# Pranava Swaroopa
