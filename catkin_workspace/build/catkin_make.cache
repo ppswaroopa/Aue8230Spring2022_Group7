@@ -1,2 +1,0 @@
-homework3
--DCATKIN_DEVEL_PREFIX=/home/pranava/gitHub/Aue8230Spring2022_Group7/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/pranava/gitHub/Aue8230Spring2022_Group7/catkin_workspace/install -G Unix Makefiles
