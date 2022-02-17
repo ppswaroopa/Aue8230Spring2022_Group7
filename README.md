@@ -3,8 +3,8 @@ Group-7 Project repo for AUE 8230 Course.
 =======
 
 Team Members:
-Pranava Swaroopa
-Tanmay Chhatbar
-Prasanna 
-Zainul
+1. Pranava Swaroopa
+2. Tanmay Chhatbar
+3. Prasanna 
+4. Zainul
 
