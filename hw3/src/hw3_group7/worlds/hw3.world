@@ -88,12 +88,12 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <model name='hw3'>
-      <pose>0.517166 1.20676 0 0 -0 0</pose>
-      <link name='Wall_6'>
-        <collision name='Wall_6_Collision'>
+      <pose>1.1075 -0.21 0 0 -0 0</pose>
+      <link name='Wall_0'>
+        <collision name='Wall_0_Collision'>
           <geometry>
             <box>
-              <size>12.75 0.15 2.5</size>
+              <size>3.75 0.15 2.5</size>
             </box>
           </geometry>
           <pose>0 0 1.25 0 -0 0</pose>
@@ -111,11 +111,11 @@
             </friction>
           </surface>
         </collision>
-        <visual name='Wall_6_Visual'>
+        <visual name='Wall_0_Visual'>
           <pose>0 0 1.25 0 -0 0</pose>
           <geometry>
             <box>
-              <size>12.75 0.15 2.5</size>
+              <size>3.75 0.15 2.5</size>
             </box>
           </geometry>
           <material>
@@ -129,7 +129,7 @@
             <layer>0</layer>
           </meta>
         </visual>
-        <pose>-0 1.13176 0 0 -0 0</pose>
+        <pose>1.0325 0 0 0 -0 1.5708</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -137,10 +137,10 @@
       <static>1</static>
     </model>
     <state world_name='default'>
-      <sim_time>57 313000000</sim_time>
-      <real_time>57 798259757</real_time>
-      <wall_time>1644987525 982758480</wall_time>
-      <iterations>57313</iterations>
+      <sim_time>24 814000000</sim_time>
+      <real_time>25 32885228</real_time>
+      <wall_time>1645031327 271929180</wall_time>
+      <iterations>24814</iterations>
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -152,10 +152,10 @@
         </link>
       </model>
       <model name='hw3'>
-        <pose>0.517166 1.20676 0 0 -0 0</pose>
+        <pose>1.1075 -0.21 0 0 -0 0</pose>
         <scale>1 1 1</scale>
-        <link name='Wall_6'>
-          <pose>0.517166 2.33852 0 0 -0 0</pose>
+        <link name='Wall_0'>
+          <pose>2.14 -0.21 0 0 -0 1.5708</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -167,7 +167,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>10.7197 -20.3615 15.2075 0 0.505798 1.9442</pose>
+        <pose>-2.17049 -6.50154 2.08658 0 0.287643 1.0082</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>

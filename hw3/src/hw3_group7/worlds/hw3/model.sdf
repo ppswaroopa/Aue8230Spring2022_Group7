@@ -1,21 +1,21 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
   <model name='hw3'>
-    <pose>0.517166 1.20676 0 0 -0 0</pose>
-    <link name='Wall_6'>
-      <collision name='Wall_6_Collision'>
+    <pose>1.1075 -0.21 0 0 -0 0</pose>
+    <link name='Wall_0'>
+      <collision name='Wall_0_Collision'>
         <geometry>
           <box>
-            <size>12.75 0.15 2.5</size>
+            <size>3.75 0.15 2.5</size>
           </box>
         </geometry>
         <pose>0 0 1.25 0 -0 0</pose>
       </collision>
-      <visual name='Wall_6_Visual'>
+      <visual name='Wall_0_Visual'>
         <pose>0 0 1.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>12.75 0.15 2.5</size>
+            <size>3.75 0.15 2.5</size>
           </box>
         </geometry>
         <material>
@@ -29,7 +29,7 @@
           <layer>0</layer>
         </meta>
       </visual>
-      <pose>-0 1.13176 0 0 -0 0</pose>
+      <pose>1.0325 0 0 0 -0 1.5708</pose>
     </link>
     <static>1</static>
   </model>
