@@ -19,7 +19,7 @@
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_$(arg model) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" />
   
   <group if="$(eval code == 'square')">
-     <node pkg="assignment3" type="square.py" name="square_cmd" output="screen"/>
+     <node pkg="hw3_group7" type="square.py" name="square_cmd" output="screen"/>
   </group>
   <group if="$(eval code == 'circle')">
      <node pkg="hw3_group7" type="circle.py" name="circle_cmd" output="screen"/>
