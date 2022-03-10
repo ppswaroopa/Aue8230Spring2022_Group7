@@ -7,8 +7,8 @@ Required Package: Gazebo
 This package contains 2 different routines performed on the Turtlebot3 Burger in Gazebo Simulation and 1 more that is implemented in the real turtlebot3 burger.
 
 ### How to Run
-Clone package folder into the catkin_workspace/src
-$ catkin_make
+Clone package folder into the catkin_workspace/src </br>
+$ catkin_make </br>
 $ roslaunch assignment5_wallfollowingandobstacleavoidance wall_following.launch # Replace the launch file name with any other
 
 ### Demo
