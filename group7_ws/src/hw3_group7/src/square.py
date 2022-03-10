@@ -56,6 +56,7 @@ class TurtleBot:
                     self.velocity_publisher.publish(vel_msg)
                     t1 = rospy.Time.now().to_sec()
                     current_angle = angular_speed*(t1-t0)
+                    
                 #After the loop, stops the robot
                 vel_msg.angular.z = 0
                 self.velocity_publisher.publish(vel_msg)
