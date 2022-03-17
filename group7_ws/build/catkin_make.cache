@@ -1,0 +1,2 @@
+hw3_group7:hw5_group7
+-DCATKIN_DEVEL_PREFIX=/home/tanmay/Documents/aue8230/git_group/Aue8230Spring2022_Group7/group7_ws/devel -DCMAKE_INSTALL_PREFIX=/home/tanmay/Documents/aue8230/git_group/Aue8230Spring2022_Group7/group7_ws/install -G Unix Makefiles

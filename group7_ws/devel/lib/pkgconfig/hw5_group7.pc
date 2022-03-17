@@ -1,0 +1,8 @@
+prefix=/home/tanmay/Documents/aue8230/git_group/Aue8230Spring2022_Group7/group7_ws/devel
+
+Name: hw5_group7
+Description: Description of hw5_group7
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
