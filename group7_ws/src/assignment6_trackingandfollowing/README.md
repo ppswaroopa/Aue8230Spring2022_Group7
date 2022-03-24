@@ -26,7 +26,7 @@ Clone package folder into the catkin_workspace/src
 $ catkin_make
 $ roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.launch # Replace the launch file name with any other
 ```
-###Special Instructions for AprilTag tracker - Routine 3:
+### Special Instructions for AprilTag tracker - Routine 3:
 Create 2 SSH terminals into the turtlebot. Run the following two in those separate shells<br>
 ```
 $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
