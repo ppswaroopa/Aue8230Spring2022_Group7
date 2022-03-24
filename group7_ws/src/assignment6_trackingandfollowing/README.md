@@ -28,12 +28,12 @@ $ roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.launch # Rep
 ```
 ### Demo
 1. follow_line_step_hsv.py: Run the turtlebot in Gazebo with constant forward velocity while following the line in the 'follow_line.world' file. A PD controller is implemented to follow the lane.
-![](/screenshot/turtlebot3_follow_line_map.png)
+![](screenshot/turtlebot3_follow_line_map.png)
 2. follow_line_step_hsv_real.py: To run the 1st routine in the Real world
-![](/screenshot/turtlebot3_follow_line_realworld.png)
+![](screenshot/turtlebot3_follow_line_realworld.png)
 3. april_tag.py: Tracking an april tag of family 'Tag36h11' id:0 and maintains a constant distance of 0.3m. Make sure to follow the 'Prerequisite' and also replace the files found in 'catkin_workspace/src/apriltag_ros/apriltag_ros/config' with the ones provided in the 'other_res' directory<br>
-![Screen Record](/screenshot/apriltag_ros.png)
-!["Real World"](/screenshot/apriltag_ros_real.png)
+![Screen Record](screenshot/apriltag_ros.png)
+!["Real World"](screenshot/apriltag_ros_real.png)
 
 ### Demo Videos
 Videos folder inside the package contains demo runs of all the scripts in simulation and real world.
