@@ -25,7 +25,6 @@ In Remote PC
 3. Similiar instructions are available in these links for karto slam.
 
 ### Code
-1. 
 1. gazebo_slam_LDS.launch: To use the LDS Lidar of turtlebot to perform GMAP-SLAM algorithm.
 ![](screenshot/turtlebot3_follow_line_map.png)
 2. gazebo_slam_LDS_navigate.launch: To perform navigation based on the map saved by the 1st routine.
