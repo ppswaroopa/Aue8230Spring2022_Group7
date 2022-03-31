@@ -28,11 +28,7 @@ In Remote PC
 1. gazebo_slam_LDS.launch: To use the LDS Lidar of turtlebot to perform GMAP-SLAM algorithm.
 ![](screenshot/turtlebot3_follow_line_map.png)
 2. gazebo_slam_LDS_navigate.launch: To perform navigation based on the map saved by the 1st routine.
-![Screen Record](screenshot/turtlebot3_follow_line_realworld_screenrecord.png)
-!["Real World"](screenshot/turtlebot3_follow_line_realworld.png)
 3. real_gmap_LDS_navigate.launch & real_karto_LDS_slam_navigate.launch: These routines are to launch navigation nodes for running in the real world.<br>
-![Screen Record](screenshot/apriltag_ros.png)
-!["Real World"](screenshot/apriltag_ros_real.png)
 
 ### Demo Videos
 Videos folder inside the package contains demo runs of all the scripts in simulation and real world.
