@@ -26,9 +26,14 @@ In Remote PC
 
 ### Code
 1. gazebo_slam_LDS.launch: To use the LDS Lidar of turtlebot to perform GMAP-SLAM algorithm.
-![](screenshot/turtlebot3_follow_line_map.png)
+![](screenshot/gazebo_LDS_mapping.jpeg)
 2. gazebo_slam_LDS_navigate.launch: To perform navigation based on the map saved by the 1st routine.
+![](screenshot/gazebo_LDS_navigation.jpeg)
 3. real_gmap_LDS_navigate.launch & real_karto_LDS_slam_navigate.launch: These routines are to launch navigation nodes for running in the real world.<br>
+4. Using the files given under 'urdf' directory you can replace the LDS lidar with Hokuyo Lidar.
 
 ### Demo Videos
 Videos folder inside the package contains demo runs of all the scripts in simulation and real world.
+
+### Notes
+All maps used in this implementation is given under maps file. For detailed explanantion of running the slam algorithm refer to the given links of ROS-Wiki
