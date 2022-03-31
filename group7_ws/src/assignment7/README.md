@@ -35,7 +35,7 @@ In Remote PC
 ### Demo Videos
 Videos folder inside the package contains demo runs of all the scripts in simulation and real world.
 
-### Comparision between 2 LIDAR sensors
+### Comparision between performance of LDS and HOKUYO LIDAR sensors in SLAM
 We ran gmapping SLAM technique using the LDS LIDAR and HOKUYO LIDAR. Due to the implementation of the SLAM tecnnique of turtlebot we had to disable verticle rays to make the sensor compatible in Gazebo. These are the differences we found: <br>
 Map Generation: <br>
 1. HOKUYO LIDAR, given its higher range and better resolution was able to map the area quickly. Due to this the traversing required in the map is less as comapred to using LDS LIDAR. Only disadvantage is that the HOKUYO has just 180 degree FOV which means we have to rotate the robot to detect objects behind it.
