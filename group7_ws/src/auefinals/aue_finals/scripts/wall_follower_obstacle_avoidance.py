@@ -4,6 +4,7 @@ import rospy
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import LaserScan
 import numpy as np
+from apriltag_utils import *
 
 def update_scan(scan_data):
     global scd
@@ -76,11 +77,27 @@ def bot_control():
         pub.publish(vel_msg)
         rospy.sleep(0.1)
 
+def follow_line():
+    # TODO
+    return
+
+apriltagdetected = False
+linedetected = False
+
 if __name__ == "__main__":
     try:
         laser_sub()
         rospy.sleep(0.5)
-        bot_control()
+        if apriltagdetected:
+            # might want to add a obstacle avoidance here
+            follow_apriltag()
+
+        elif linedetected:
+            follow_line()
+        
+        else:
+            bot_control()
+
     except rospy.ROSInterruptException:
         pass
 
