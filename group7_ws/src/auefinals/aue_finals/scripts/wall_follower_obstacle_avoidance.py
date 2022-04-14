@@ -78,9 +78,9 @@ def bot_control():
         rospy.sleep(0.1)
 
 def follow_line():
-    #TODO
+    # TODO
     return
-    
+
 apriltagdetected = False
 linedetected = False
 
