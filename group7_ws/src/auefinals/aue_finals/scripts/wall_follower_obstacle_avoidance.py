@@ -79,7 +79,8 @@ def bot_control():
 
 def follow_line():
     #TODO
-
+    return
+    
 apriltagdetected = False
 linedetected = False
 

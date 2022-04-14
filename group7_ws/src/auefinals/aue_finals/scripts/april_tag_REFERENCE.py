@@ -19,8 +19,6 @@ at_z = 0
 def april_tag_callback(data):
     if len(data.detections) > 0:
         # do something
-        global at_x
-        global at_z
         at_x = data.detections[0].pose.pose.pose.position.x
         at_z = data.detections[0].pose.pose.pose.position.z
         # print(f"{at_x=}\t{at_z=}")

@@ -9,13 +9,13 @@ def april_tag_callback(data):
     # update data in case apriltag is detected
     # if no apriltag detected, make bool false, so botcontrol() is used instead
 
-    global apriltagdetected
+    # global apriltagdetected
     if len(data.detections) > 0:
         apriltagdetected = True
 
         # make target 
-        global at_x
-        global at_z
+        # global at_x
+        # global at_z
         at_x = data.detections[0].pose.pose.pose.position.x
         at_z = data.detections[0].pose.pose.pose.position.z
         # print(f"{at_x=}\t{at_z=}")
