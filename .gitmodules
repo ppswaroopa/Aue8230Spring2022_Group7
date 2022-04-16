@@ -1,3 +1,0 @@
-[submodule "group7_ws/src/auefinals/aue_finals/darknet_ros"]
-	path = group7_ws/src/auefinals/aue_finals/darknet_ros
-	url = https://github.com/leggedrobotics/darknet_ros
