@@ -12,7 +12,7 @@ def april_tag_callback(data):
     # global apriltagdetected
     if len(data.detections) > 0:
         apriltagdetected = True
-
+        print('apriltag detected')
         # make target 
         # global at_x
         # global at_z

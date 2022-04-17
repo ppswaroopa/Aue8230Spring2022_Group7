@@ -28,7 +28,7 @@
     <arg name="model" value="$(arg model)" />
   </include>-->
   
-  <include file="$(find apriltag_ros)/continuous_detection.launch"/>
+  <include file="$(find apriltag_ros)/launch/continuous_detection.launch"/>
 
   <!--<node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
     <param name="publish_frequency" type="double" value="50.0" />
@@ -39,7 +39,8 @@
 
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_$(arg model) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -Y $(arg yaw_pos) -param robot_description" />
   
-  
+  <node pkg="aue_finals" type="wall_follower_obstacle_avoidance.py" name="bot_controller" output="screen" />
+
   
   <!--<node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtlebot3_gazebo)/rviz/turtlebot3_gazebo_model.rviz"/>-->
     
