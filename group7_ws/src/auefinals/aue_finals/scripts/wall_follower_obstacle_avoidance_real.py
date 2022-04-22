@@ -80,7 +80,7 @@ def bot_control():
             z = -((ef1)*1.5 - (ef1 - ei1)*0.1)            
         else:
             #rospy.loginfo("rotation turtlebot")
-            z = -((ef1)*1 - (ef1 - ei1)*0.1 + (ef2)*0.8 - (ef2 - ei2)*0.1)
+            z = -((ef1)*1.25 - (ef1 - ei1)*0.1 + (ef2)*0.8 - (ef2 - ei2)*0.1)
         vel_msg.angular.z = z
         pub.publish(vel_msg)
         rospy.sleep(0.1)
