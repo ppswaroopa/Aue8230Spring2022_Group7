@@ -1,0 +1,8 @@
+prefix=/home/gupta/git_ws/Aue8230Spring2022_Group7/group7_ws/devel
+
+Name: assignment7
+Description: Description of assignment7
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
