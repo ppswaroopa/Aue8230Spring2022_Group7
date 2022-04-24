@@ -6,6 +6,7 @@ from sensor_msgs.msg import LaserScan
 import numpy as np
 
 class ObstacleAvoidance():
+    
     def __init__(self) -> None:
         rospy.Subscriber("/scan", LaserScan, callback=self.update_scan)
 
