@@ -66,7 +66,6 @@ class LineFollower(object):
         ########   CONTROLLER    ########
         #################################
 
-        
         global cxlast_int
         # PD controller, works in gazebo to follow line relatively in centre
         twist_object = Twist()
