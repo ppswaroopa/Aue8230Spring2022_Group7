@@ -75,7 +75,7 @@ class LineFollower(object):
         ############Extrapolation#########
         
         #x_int = cx - 21.8*(cx2 - cx)
-        x_int = cx - 15.4*(cx2 - cx)
+        x_int = cx - 21.4*(cx2 - cx)
         ############################
 
       

@@ -1,8 +1,0 @@
-prefix=/home/gupta/git_ws/Aue8230Spring2022_Group7/group7_ws/install
-
-Name: hw3_group7
-Description: Description of hw3_group7
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
