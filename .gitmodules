@@ -7,3 +7,6 @@
 [submodule "group7_ws/src/apriltag_ros"]
 	path = group7_ws/src/apriltag_ros
 	url = https://github.com/AprilRobotics/apriltag_ros
+[submodule "group7_ws/src/turtlebot3_simulations"]
+	path = group7_ws/src/turtlebot3_simulations
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_simulations
